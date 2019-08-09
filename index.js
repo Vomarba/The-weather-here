@@ -45,7 +45,7 @@ app.get("/weather/:latlon", async (request, response) => {
   const weather_response = await fetch(weather_url);
   const weather_data = await weather_response.json();
 
-  const aq_url = `https://api.openaq.org/v1/latest/?coordinates=${lat},${lon}`;
+  const aq_url = `https://api.openaq.org/v1/latest?coordinates=${lat},${lon}`;
   const aq_response = await fetch(aq_url);
   const aq_data = await aq_response.json();
 

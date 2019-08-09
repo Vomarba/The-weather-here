@@ -40,11 +40,11 @@ async function getData() {
 
   // Add a line path
 
-  const polyLine = new L.Polyline(pointList, {
-    color: "purple",
-    weight: 3,
-    opacity: 1,
-    smoothFactor: 1
-  });
-  polyLine.addTo(mymap);
+  // const polyLine = new L.Polyline(pointList, {
+  //   color: "purple",
+  //   weight: 3,
+  //   opacity: 1,
+  //   smoothFactor: 1
+  // });
+  // polyLine.addTo(mymap);
 }
